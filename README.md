@@ -1,13 +1,50 @@
-# React + Vite
+# 📅 Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive and visually appealing calendar scheduling application. This app allows users to add, edit, and delete events on specific dates, helping them manage daily tasks and interviews efficiently.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 📆 Monthly calendar navigation
+- ⌚ Add events with custom time (HH:MM)
+- 📝 Add event text (up to 60 characters)
+- ✏️ Edit or ❌ delete existing events
+- 🌙 Dark theme UI with intuitive design
+- 💾 State managed locally (extendable to backend)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# calenderApp
+---
+
+## 🚀 Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Framework**: Likely React (Vite-based)
+- **UI Design**: Responsive with hover/focus interactions
+
+---
+
+## 🔧 How to Use
+
+1. Click on a date in the calendar view.
+2. Enter time (HH:MM) and event description in the popup modal.
+3. Click **"Add Event"** to save it.
+4. Events appear on the right side with:
+   - Time
+   - Description
+   - Edit and Delete buttons
+5. Click `✏️` to edit an event or `❌` to remove it.
+
+---
+
+## 📸 Screenshots
+
+### Add Event Popup
+![Add Event Popup](./assets/add-event.png)
+
+### Calendar with Events
+![Calendar View](./assets/calendar-view.png)
+
+---
+
+## 📂 Folder Structure Suggestion (React + Vite)
+
