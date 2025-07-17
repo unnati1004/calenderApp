@@ -39,10 +39,10 @@ An interactive and visually appealing calendar scheduling application. This app 
 ## 📸 Screenshots
 
 ### Add Event Popup
-![Add Event Popup](./assets/add-event.png)
+![Add Event Popup](./src/assets/eventPopupScreen.png)
 
 ### Calendar with Events
-![Calendar View](./assets/calendar-view.png)
+![Calendar View](./src/assets/Screenshot%202025-07-11%20221038.png)
 
 ---
 
