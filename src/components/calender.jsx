@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./calender.css";
 
 const CalenderApp = () => {
   const daysOfWeek = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
